@@ -124,6 +124,8 @@ const menuRoutes=require('./routes/menuRoutes');
 app.use('/',menuRoutes);
   
 })
+
+//this is port
 app.listen(3000, () => {
   console.log('Listening on port 3000');
 });
